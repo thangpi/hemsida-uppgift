@@ -1,6 +1,6 @@
 body {
-	background-image: url(../Images/skog.jpg);
-	background-size: 1400px 760px;
+	background-image: url(../Images/Tom_chasing_jerry_yellow_background_wallpaper.jpg);
+	background-size: 1368px 600px;
 	}
 
 h1,h2,h3,h4,h5,h6,p{
@@ -14,6 +14,7 @@ nav{
 	width: 80%;
 	height: 80px;
 	margin: 10px auto 0px auto;
+	min-width: 600px;
 }
 
 nav a{
@@ -40,4 +41,47 @@ nav a:hover{ /* How it looks when you hover with muose */
 	width: 80%;
 	margin: 0px auto 0px auto; /* top right bottom left */
 	border: 3px black solid; /* border-width border-color border-style*/
+	background: rgba(0,0,0,0.3);
+	border-radius: 30%;
+	min-width: 600px;
+}
+
+.container2{
+	position:relative;
+	width: 80%;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+	background: rgba(0,0,0,0.3);
+	border-radius: 500%;
+	min-width: 600px;
+}
+
+.container3{
+	position:relative;
+	width: 80%;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+	background: rgba(0,0,0,0.3);
+	border-radius: 20%;
+	min-width: 600px;
+}
+
+.container4{
+	position:relative;
+	width: 80%;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+	background: rgba(0,0,0,0.3);
+	border-radius: 30%;
+	min-width: 600px;
+}
+
+.container5{
+	position:relative;
+	width: 80%;
+	margin: 0px auto 0px auto; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+	background: rgba(0,0,0,0.3);
+	border-radius: 10; 
+	min-width: 600px;
 }
